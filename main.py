@@ -38,7 +38,7 @@ class WordScramble:
       with open("high_score.txt", "w") as f:
         f.write(str(self.high_score))
 
-words = ["python", "hangman", "pneumonoultramicroscopicsilicovolcanoconiosis", "quizzical", "vexing", "murk", "yuck", "sixth", "misspell", "weird", "intelligence", "accept", "coincidental", "pizzazz", "quiz", "jazz", "touchdown", "zinc", "oak", "yoking"]
+wordscramble = WordScramble("words.txt")
 
 wordscramble = WordScramble(words)
 
